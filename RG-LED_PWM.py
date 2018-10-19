@@ -9,8 +9,8 @@ GPIO.setboard(GPIO.PCPCPLUS)    # Orange Pi PC board
 GPIO.setmode(GPIO.BOARD)
 
 # The output pins will be declared, which are connected with the LEDs. 
-LED_Red = 29
-LED_Green = 31
+LED_Red = 7
+LED_Green = 29
 # Set pins to output mode
 GPIO.setup(LED_Red, GPIO.OUT) 
 GPIO.setup(LED_Green, GPIO.OUT)
